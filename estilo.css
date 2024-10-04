@@ -1,47 +1,87 @@
 html{
-    margin: 0 auto;
+    
     font-family: 'Times New Roman', Times, serif;
+   
+
+
+}
+header{
+    background-color:#F5F5DC ;
+    padding: 20px;
+   
 }
 
-h1{
+header>h1{
    text-align: center; 
-   font-size: 40px;
+   font-size: 60px;
+   background-color:#F5F5DC ;
+
+
+}
+h1{
+    background-color:#F5F5DC ;
+    
+
 }
 nav{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 30px;
+    padding: 10px;
 }
+
+*{
+
+    box-sizing: border-box;
+ }
+ .row {
+
+    display: flex;
+    flex-wrap: wrap;
+ }
 
 li{
     display: inline;
-    
-    
 }
+nav>ul>li{
+    margin-left: 20px;
+    background-color: #F5F5DC ;
+}
+
 aside>figure>img{
     width: 200px;
     height: 120px;
+    text-align: center;
+    
 }
+/* h2{
+    text-align: center;
+} */
 
-header{
-    background-color:#F5F5DC ;
-    padding-top: 0px;
-}
 
 section>article{
     background-color: silver;
-    display: inline;
-    
+    float: left;
+    width: 70%;
+    height: 250px;
 }
 section>aside{
     background-color: white;
-    display: inline;
-   
-}
-footer>ul{
-    background-color: purple;
+    float: right; 
+    width: 30%;
+    height: 250px;
     text-align: center;
 }
-footer>ul>li>a{
-    color: #F5F5DC;
+
+footer>ul{
+    background-color: white;
+    text-align: center;
     
+}
+footer>ul>li>a{
+    color: purple;
+    
+}
+footer{
+    margin: 50px 20px 50px 20px;
 }
