@@ -1,8 +1,6 @@
 html{
     
     font-family: 'Times New Roman', Times, serif;
-   
-
 
 }
 header{
@@ -14,21 +12,19 @@ header{
 header>h1{
    text-align: center; 
    font-size: 60px;
-   background-color:#F5F5DC ;
-
-
 }
-h1{
-    background-color:#F5F5DC ;
-    
 
-}
 nav{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-spacing: 30px;
     padding: 10px;
 }
+article>h2,p{
+    padding-left: 20px;
+
+}
+
 
 *{
 
@@ -75,13 +71,10 @@ section>aside{
 
 footer>ul{
     background-color: white;
-    text-align: center;
+    text-align: center;   
     
 }
 footer>ul>li>a{
     color: purple;
     
-}
-footer{
-    margin: 50px 20px 50px 20px;
 }
